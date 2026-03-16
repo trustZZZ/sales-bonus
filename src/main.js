@@ -119,7 +119,7 @@ function analyzeSalesData(data, options) {
                 seller.products_sold[item.sku] = 0;
             }
             // По артикулу товара увеличить его проданное количество у продавца
-            seller.products_sold[item.sku] += 1;
+            seller.products_sold[item.sku] += item.quantity;
         });
     });
 
@@ -160,7 +160,6 @@ function analyzeSalesData(data, options) {
             }
         });
         seller.top_products = seller.top_products.slice(0, 10);
-
         // Формируем топ-10 товаров
     });
     // @TODO: Подготовка итоговой коллекции с нужными полями
