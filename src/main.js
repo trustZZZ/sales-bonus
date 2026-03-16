@@ -29,7 +29,7 @@ function calculateBonusByProfit(index, total, seller) {
     if (index == 0) {
         return .15 * profit;
     } else if (index == 1
-        || index == 2пше
+        || index == 2
     ) {
         return 0.1 * profit;
     } else if (index == (total - 1)) {
