@@ -1,3 +1,4 @@
+https://github.com/trustZZZ/sales-bonus.git
 # Проектная работа "Пряники"
 5 спринт, модуль JS
 
